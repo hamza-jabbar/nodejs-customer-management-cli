@@ -1,0 +1,13 @@
+Modules used w/ this application:
+-   Mongoose: This is used to interact with MongoDB model and schema for customers
+-   SchemaJS: A solution for NodeJS command line interfaces
+-   Enquirer: An elegant way to create customers by asking users questions so they can enter their data.
+
+index.js - Will include methods that will interact with mongoose with the model
+         - Connect to Mongoose or MongoDB using Mongoose
+- Seperate models file for the schema
+
+
+".then" - to get a response from a promise (Mongoose)
+
+commands.js - This file uses commander
